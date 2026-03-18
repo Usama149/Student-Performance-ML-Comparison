@@ -59,7 +59,8 @@ Machine Learning Rgressions models are applied to a student performance data to 
 
 ### Model Comaprison with and without G1 and G2
 
-<img width="989" height="590" alt="Model Comparison With and Without G1   G2" src="https://github.com/user-attachments/assets/a8a141fa-99d8-46d5-9200-4d0ed8e5541e" />
+<img width="989" height="590" alt="Model Comparison With And Without G1   G2" src="https://github.com/user-attachments/assets/5774df4a-8fc2-438e-a249-ad5cb09008ea" />
+
 
 ### Main Findings
 - Prior Grades play a major part in predicting the fina grade G3.
