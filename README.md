@@ -59,7 +59,7 @@ Machine Learning Rgressions models are applied to a student performance data to 
 
 ### Model Comaprison with and without G1 and G2
 
-<img width="989" height="590" alt="Model Comparison With And Without G1   G2" src="https://github.com/user-attachments/assets/5774df4a-8fc2-438e-a249-ad5cb09008ea" />
+<img width="989" height="590" alt="Model Comparison With And Without G1   G2" src="https://github.com/user-attachments/assets/74c32f94-65c9-4b44-af4c-ba76589269d8" />
 
 
 ### Main Findings
