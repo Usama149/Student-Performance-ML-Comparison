@@ -57,6 +57,13 @@ Machine Learning Rgressions models are applied to a student performance data to 
 - R^2 = -0.20
 - MAE = 4.21
 
+### Model Perfromance Comparison
+
+<img width="989" height="590" alt="Model Performance Output" src="https://github.com/user-attachments/assets/c2ee5057-d34f-46fa-8c35-5f0d23361d5a" />
+
+### Model Comaprison with and without G1 and G2
+
+
 
 ### Main Findings
 - Prior Grades play a major part in predicting the fina grade G3.
