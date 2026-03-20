@@ -18,7 +18,7 @@ Machine Learning Rgressions models are applied to a student performance data to 
 |------|------:|------:|
 | Multiple Linear Regression | 0.766 | 1.68 |
 | SVR | 0.583 | 2.214 |
-| Random Forest| 0.969 | 0.511 |
+| Random Forest| 0.843 | 1.255 |
 | Decision Trees | 0.785 | 1.27 |
 
 ## Without Prior Grades G1 and G2
@@ -27,7 +27,7 @@ Machine Learning Rgressions models are applied to a student performance data to 
 |------|------:|------:|
 | Multiple Linear Regression | 0.191 | 3.69 |
 | SVR | 0.034 | 3.904 |
-| Random Forest| 0.878 | 1.342 |
+| Random Forest| 0.220 | 3.528 |
 | Decision Trees | -0.20 | 4.21 |
 
 ### key results
@@ -59,12 +59,13 @@ Machine Learning Rgressions models are applied to a student performance data to 
 
 ### Model Comaprison with and without G1 and G2
 
-<img width="989" height="590" alt="Model Comparison With And Without G1   G2" src="https://github.com/user-attachments/assets/74c32f94-65c9-4b44-af4c-ba76589269d8" />
+<img width="989" height="590" alt="Model_Comparison" src="https://github.com/user-attachments/assets/d07763fa-eef2-4efe-be22-1dc3e559d935" />
+
 
 
 ### Main Findings
 - Prior Grades play a major part in predicting the fina grade G3.
-- Random Forest had a decent performance even though the prior grades were removed, outperforming other models.
+- Random Forest had a decent performance, outperforming other models.
 - There were non-linear patterns and feature interactions captured by Random Forest and not by other models.
 
 
