@@ -85,7 +85,3 @@ Example:
 * This indicates that earlier academic performance carries most of the predictive signal in the dataset.
 * The remaining demographic, family, and lifestyle variables have limited standalone predictive power.
 * SVR was the most resilient model after removing the strongest predictors, while the Decision Tree was the most unstable.
-
-## Conclusion
-
-This project shows that student final grade prediction in the Portuguese dataset depends heavily on prior grades. While several machine learning models perform well when earlier grades are available, their predictive ability drops strongly without them. This highlights the importance of feature selection and demonstrates how model performance can depend on a small number of highly informative variables.
