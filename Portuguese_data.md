@@ -75,9 +75,8 @@ Add your Portuguese performance comparison plot here.
 
 Example:
 
-```markdown
-![Portuguese Model Comparison](figures/performance_comparison_portuguese.png)
-```
+<img width="989" height="590" alt="Performance Comparison" src="https://github.com/user-attachments/assets/747f0690-61de-46be-85f8-21e804b921e4" />
+
 
 ## Main Findings
 
