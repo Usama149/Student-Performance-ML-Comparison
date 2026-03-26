@@ -1,65 +1,77 @@
-### Student-Performance-ML-Comparison (math data)
-Regression model on a student performance data using Python
+# Student Performance ML Comparison (Math Dataset)
 
-### Overview
-Machine Learning Rgressions models are applied to a student performance data to check how well which model performes the best. 
+Regression-based machine learning models applied to student performance data using Python.
 
-### Models tested
+## Overview
+This project compares multiple machine learning regression models on the Student Performance dataset to evaluate how well they predict the final grade (`G3`).
+
+The analysis was carried out in two settings:
+1. **With prior grades `G1` and `G2` included**
+2. **Without prior grades `G1` and `G2`**
+
+This helps show how much predictive power comes from earlier academic performance.
+
+## Models Tested
 - Multiple Linear Regression
-- Support Vector Machine
-- Decision Trees
-- Random Forest
+- Support Vector Regression (SVR)
+- Decision Tree Regression
+- Random Forest Regression
 
-### Model Comparison
+## Model Comparison
 
-## With prior grades G1 and G2
+### With Prior Grades `G1` and `G2`
 
 | Model | R² | MAE |
 |------|------:|------:|
-| Multiple Linear Regression | 0.766 | 1.68 |
+| Multiple Linear Regression | 0.766 | 1.680 |
 | SVR | 0.583 | 2.214 |
-| Random Forest| 0.843 | 1.255 |
-| Decision Trees | 0.785 | 1.27 |
+| Random Forest | 0.843 | 1.255 |
+| Decision Tree | 0.785 | 1.270 |
 
-## Without Prior Grades G1 and G2
+### Without Prior Grades `G1` and `G2`
 
 | Model | R² | MAE |
 |------|------:|------:|
-| Multiple Linear Regression | 0.191 | 3.69 |
+| Multiple Linear Regression | 0.191 | 3.690 |
 | SVR | 0.034 | 3.904 |
-| Random Forest| 0.220 | 3.528 |
-| Decision Trees | -0.20 | 4.21 |
+| Random Forest | 0.220 | 3.528 |
+| Decision Tree | -0.200 | 4.210 |
 
-### key results
-- The school column was removed as it has no impact on the model because of a constant value
+## Key Notes
+- The `school` column was removed because it had no meaningful impact on the model.
+- The strongest predictors were the prior grades `G1` and `G2`.
+- Removing `G1` and `G2` caused a clear drop in performance across all models.
 
-## With prior grades G1 and G2
+## Best and Worst Results
 
-# Best Result
-- Random Forest performed the best.
-- R^2 = 0.969
-- MAE = 1.343
+### With Prior Grades `G1` and `G2`
+**Best model:** Random Forest  
+- **R²:** 0.843  
+- **MAE:** 1.255  
 
-# Worst Result
-- SVR performed the worst
-- R^2 = 0.58
-- MAE = 2.21
+**Worst model:** SVR  
+- **R²:** 0.583  
+- **MAE:** 2.214  
 
-## Without prior grades G1 and G2
+### Without Prior Grades `G1` and `G2`
+**Best model:** Random Forest  
+- **R²:** 0.220  
+- **MAE:** 3.528  
 
-# Best Result
-- Random Forest performed the best
-- R^2 = 0.878
-- MAE = 1.343
+**Worst model:** Decision Tree  
+- **R²:** -0.200  
+- **MAE:** 4.210  
 
-# Worst Result
-- Decision Trees performes the least
-- R^2 = -0.20
-- MAE = 4.21
-
-### Model Comaprison with and without G1 and G2
+## Model Comparison With and Without `G1` and `G2`
 
 <img width="989" height="590" alt="Model_Comparison" src="https://github.com/user-attachments/assets/d07763fa-eef2-4efe-be22-1dc3e559d935" />
+
+## Main Findings
+- Prior grades `G1` and `G2` play a major role in predicting the final grade `G3`.
+- Random Forest achieved the best performance among the tested models.
+- Once `G1` and `G2` were removed, model performance dropped substantially.
+- This suggests that earlier academic performance is much more informative than the remaining demographic and lifestyle variables.
+- Random Forest likely benefited from capturing non-linear patterns and feature interactions better than the other models.4efe-be22-1dc3e559d935" />
 
 
 
