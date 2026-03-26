@@ -89,7 +89,3 @@ Example:
 ## Conclusion
 
 This project shows that student final grade prediction in the Portuguese dataset depends heavily on prior grades. While several machine learning models perform well when earlier grades are available, their predictive ability drops strongly without them. This highlights the importance of feature selection and demonstrates how model performance can depend on a small number of highly informative variables.
-
-## Author
-
-**Usama**
