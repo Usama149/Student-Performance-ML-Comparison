@@ -71,13 +71,5 @@ This helps show how much predictive power comes from earlier academic performanc
 - Random Forest achieved the best performance among the tested models.
 - Once `G1` and `G2` were removed, model performance dropped substantially.
 - This suggests that earlier academic performance is much more informative than the remaining demographic and lifestyle variables.
-- Random Forest likely benefited from capturing non-linear patterns and feature interactions better than the other models.4efe-be22-1dc3e559d935" />
-
-
-
-### Main Findings
-- Prior Grades play a major part in predicting the fina grade G3.
-- Random Forest had a decent performance, outperforming other models.
-- There were non-linear patterns and feature interactions captured by Random Forest and not by other models.
-
+- Random Forest likely benefited from capturing non-linear patterns and feature interactions better than the other models.
 
